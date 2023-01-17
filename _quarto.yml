@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Tired but Excited"
+  author: "Mara Alexeev"
+  date: "Last Updated `r Sys.Date()"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+  comments:
+    giscus:
+      repo: MaraAlexeev/tired_but_excited
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
