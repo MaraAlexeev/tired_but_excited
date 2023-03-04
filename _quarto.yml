@@ -13,6 +13,13 @@ book:
   comments:
     giscus:
       repo: MaraAlexeev/tired_but_excited
+      repo-id: R_kgDOIyfZdA
+      category: Book Discussion
+      category-id: DIC_kwDOIyfZdM4CTol7
+      mapping: pathname
+      reactions-enabled: TRUE
+      input-position: bottom
+      theme: light
 
 bibliography: references.bib
 
